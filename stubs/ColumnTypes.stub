@@ -1,0 +1,7 @@
+<?php namespace Core\Database;
+
+class ColumnTypes{
+    protected static $TYPES = [
+        @types
+    ];
+}

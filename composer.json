@@ -1,0 +1,25 @@
+{
+    "name": "optimum7/orm",
+    "description": "Volusion Framework for Optimum7",
+    "authors": [
+        {
+            "name": "Optimum7 T.Cem Yilmaz",
+            "email": "info@optimum7.com"
+        }
+    ],
+    "require": {
+        "illuminate/container": "^5.3",
+        "illuminate/support": "^5.3",
+        "illuminate/pagination" : "^5.3",
+        "symfony/var-dumper" : "^4.0",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/"
+        },
+        "files": [
+            "bootstrap.php"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+<?php namespace Core\Schemas;
+
+use Core\Database\Eloquent\Model;
+
+/**
+ *\Core\Schemas\@ModelName
+ *
+ @properties
+ */
+class @ModelName extends Model{
+
+    protected $table = "@ModelName";
+    protected $primaryKey = @id;
+
+    // Your relationships...
+
+}
